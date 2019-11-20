@@ -116,8 +116,8 @@ def 结尾段():
             return xx
         elif 骰子 < 20:
             xx += 来点名人名言()
-        elif 分支 < 90:
-            tmp += next(下一句废话)
+        elif 骰子 < 90:
+            xx += next(下一句废话)
         else:
             xx += next(下一句废话)
         骰子 = random.randint(0,100)
