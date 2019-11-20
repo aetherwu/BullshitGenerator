@@ -112,7 +112,7 @@ def 结尾段():
         if 骰子 < 5:
             xx += random.choice(观点总结)
             xx += "\r\n"
-            xx = xx.replace("t", "无可奈何的")
+            xx = xx.replace("t", "含义深刻")
             return xx
         elif 骰子 < 20:
             xx += 来点名人名言()
