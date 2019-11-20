@@ -15,7 +15,9 @@ data = readJSON.读JSON文件("data.json")
 第一个分论点引入 = data['idea-entry-first']
 更多分论点引入 = data['idea-entry-after']
 观点总结 = data['ending']
-
+废话提问 = data['ask'] # 
+废话解决方案 = data['solution']
+废话总结 = data['conclusion']
 
 重复度 = 1
 
@@ -30,6 +32,7 @@ def 洗牌遍历(列表):
 下一句废话 = 洗牌遍历(废话)
 下一句名人名言 = 洗牌遍历(名人名言)
 下一个论点 = 洗牌遍历(论点)
+下一句深度废话 = 洗牌遍历(废话解决方案)
 
 def 来点名人名言():
     global 下一句名人名言
@@ -94,6 +97,12 @@ def 更多的分论点段():
             xx += next(下一句废话)
         骰子 = random.randint(0,100)
 
+def 来点深入思考():
+    global 下一句深度废话
+    xx = next(下一句深度废话)
+    xx = xx.replace(  "b",random.choice(废话提问) )
+    xx = xx.replace(  "a",random.choice(废话总结) )
+    return xx
 
 def 结尾段():
     xx = "\u3000\u3000" # 段前两个全角空格
@@ -107,6 +116,8 @@ def 结尾段():
             return xx
         elif 骰子 < 20:
             xx += 来点名人名言()
+        elif 分支 < 90:
+            tmp += next(下一句废话)
         else:
             xx += next(下一句废话)
         骰子 = random.randint(0,100)
