@@ -3,7 +3,7 @@
 
 基于 https://github.com/menzi11/BullshitGenerator
 
-#### 基于
+### 基于
 
 https://github.com/menzi11/BullshitGenerator/commit/ddcf95a76b78bacf84cafe36edc016a9872c223e
 #ddcf95a
@@ -23,3 +23,27 @@ https://github.com/menzi11/BullshitGenerator/pull/107
 
 纠正JSON中全角半角混用的现象，增加了段落逻辑
 https://github.com/menzi11/BullshitGenerator/pull/110
+
+#### 特色项目
+
+English
+> This repository is the result of translating of 狗屁不通文章生成器 (BullshitGenerator) menzi11/BullshitGenerator into English.
+https://github.com/JIUYANGZH/BullshitGenerator-English
+
+Japanese
+> でたらめ文章ジェネレーター
+> このリポジトリは 狗屁不通文章生成器 (BullshitGenerator) を日本語に翻訳してみた結果です。お楽しみください。
+https://github.com/garily/BullshitGenerator-Japanese
+
+PHP support
+https://github.com/pikanglong/BullshitGenerator
+
+Text generator support
+https://github.com/elin-croft/BullshitGenerator
+
+Typescript support
+https://github.com/ranto2012/BullshitGenerator
+
+#### License
+
+MIT
