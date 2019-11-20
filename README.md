@@ -44,6 +44,8 @@ https://github.com/elin-croft/BullshitGenerator
 ### Typescript support  
 https://github.com/ranto2012/BullshitGenerator
 
+### Flask support
+https://github.com/aetherwu/BullshitGenerator-Flask
 
 ## License
 
